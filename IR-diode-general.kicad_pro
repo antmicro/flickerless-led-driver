@@ -433,12 +433,8 @@
       "LEDS & CONNECTORS"
     ],
     [
-      "614c019e-df4a-44f4-bb1b-e9c500ed5bde",
-      "USB-C & BARREL JACK"
-    ],
-    [
       "04f57430-8668-4227-a3f5-414daa4e8985",
-      "LED DRIVER"
+      "LED DRIVER & USB-C Power output"
     ]
   ],
   "text_variables": {}
