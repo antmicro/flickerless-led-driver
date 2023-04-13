@@ -236,7 +236,7 @@
       (reference "L2") (unit 1) (value "TFM252012ALMA3R3MTAA") (footprint "antmicro-footprints:L_1008_2520Metric")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/525b2cf7-1cc0-4346-ad9e-29d535c1d5cc"
-      (reference "POT1") (unit 1) (value "R0141-2-20k") (footprint "antmicro-footprints:R0141-2-20k")
+      (reference "POT1") (unit 1) (value "R0141-2-20k") (footprint "antmicro-footprints:Potentiometer_SRPassives_R0141-2_Horizontal")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/dfd568e4-b49e-46b4-888a-a3bdedbcbb93"
       (reference "R1") (unit 1) (value "R_0R2_1206") (footprint "antmicro-footprints:1206-res")
