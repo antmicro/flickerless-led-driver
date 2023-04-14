@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "1050nm IR LED Driver")
+    (date "2023-04-14")
+    (rev "1.0.0")
+    (company "Antmicro Ltd.")
+    (comment 1 "www.antmicro.com")
+  )
+
   (lib_symbols
     (symbol "antmicroMechanicalParts:antmicro_logo" (in_bom yes) (on_board yes)
       (property "Reference" "N" (id 0) (at 15.24 -5.08 0)
