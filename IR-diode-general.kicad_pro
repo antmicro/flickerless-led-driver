@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -385,6 +385,7 @@
           "C_out",
           "FB",
           "GND",
+          "Net-(C3-Pad1)",
           "Net-(D2-Pad1)",
           "SW"
         ],
