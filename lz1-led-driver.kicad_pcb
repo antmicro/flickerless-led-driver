@@ -19118,7 +19118,7 @@
   (gr_text "Heatsink\n" (at 111.387198 41.305567) (layer "F.SilkS") (tstamp ca80498a-3419-4752-b93e-378f89cbcfdf)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "1050nm IR LED Driver \nrev.1.0.0 04/2023" (at 129.506392 46.504296) (layer "B.Mask") (tstamp 628766e0-fa15-4f24-b5d9-20a2ecec15b0)
+  (gr_text "EZ1 LED Driver \nrev.1.1.0 05/2023" (at 129.506392 46.504296) (layer "B.Mask") (tstamp 628766e0-fa15-4f24-b5d9-20a2ecec15b0)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left mirror))
   )
 
