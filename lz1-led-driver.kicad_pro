@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IR-diode-general.kicad_pro",
+    "filename": "lz1-led-driver.kicad_pro",
     "version": 1
   },
   "net_settings": {

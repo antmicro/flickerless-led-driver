@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "LZ1 OSRAM LuxiGen LED Driver")
+    (date "2023-05-04")
+    (rev "1.0.0")
+    (comment 1 "www.antmicro.com")
+  )
+
   (lib_symbols
     (symbol "antmicroBarrelAudioConnectors:BarrelJack_3167288" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 17.78 -5.08 0)

@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (title "1050nm IR LED Driver")
-    (date "2023-04-14")
+    (title "LZ1 OSRAM LuxiGen LED Driver")
+    (date "2023-05-04")
     (rev "1.0.0")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
@@ -205,7 +205,7 @@
     (property "Sheet name" "LEDS & CONNECTORS" (id 0) (at 131.445 195.5034 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "LED_CONN.kicad_sch" (id 1) (at 131.445 236.8046 0)
+    (property "Sheet file" "led_connector.kicad_sch" (id 1) (at 131.445 236.8046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -277,11 +277,11 @@
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/ee8f677e-7c70-42ab-b26f-a3c4dc0d6a99"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
-    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/445201a1-fca5-4fa3-a943-a4c42d093c71"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
     (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/25c8adc3-90d0-416c-a094-61de9297b643"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/445201a1-fca5-4fa3-a943-a4c42d093c71"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/db0ab990-568d-4a92-bc6c-ab27d31f5e7a"
       (reference "C1") (unit 1) (value "C_10u_0805") (footprint "antmicro-footprints:0805-cap")
