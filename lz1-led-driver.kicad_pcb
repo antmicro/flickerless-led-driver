@@ -19100,7 +19100,7 @@
   (gr_rect (start 144.137198 59.455567) (end 108.137198 42.505567) (layer "F.SilkS") (width 0.15) (fill none) (tstamp ba273f2f-4310-4749-a499-90c5d7faae6f))
   (gr_rect (start 109.075 43.025) (end 143.525 58.775) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 5c757aa2-8839-464c-9e27-55d3ddf3a9d5))
   (gr_rect (start 85 40.5) (end 165 61) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp f97310a2-2d6d-4327-b403-1fadcd8b97ac))
-  (gr_text "1050nm IR LED Driver \nrev.1.0.0 04/2023" (at 129.506392 46.504296) (layer "B.Cu") (tstamp 59698279-309a-42d4-aefa-7cace076e4d4)
+  (gr_text "LZ1 LED Driver \nrev.1.1.0 05/2023" (at 129.506392 46.504296) (layer "B.Cu") (tstamp 59698279-309a-42d4-aefa-7cace076e4d4)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left mirror))
   )
   (gr_text "DBG\n" (at 149.1 58.45 90) (layer "B.SilkS") (tstamp 342aa15d-2d94-4220-af96-e4ec2343afbb)
@@ -19118,7 +19118,7 @@
   (gr_text "Heatsink\n" (at 111.387198 41.305567) (layer "F.SilkS") (tstamp ca80498a-3419-4752-b93e-378f89cbcfdf)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "EZ1 LED Driver \nrev.1.1.0 05/2023" (at 129.506392 46.504296) (layer "B.Mask") (tstamp 628766e0-fa15-4f24-b5d9-20a2ecec15b0)
+  (gr_text "LZ1 LED Driver \nrev.1.1.0 05/2023" (at 129.506392 46.504296) (layer "B.Mask") (tstamp 628766e0-fa15-4f24-b5d9-20a2ecec15b0)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left mirror))
   )
 
