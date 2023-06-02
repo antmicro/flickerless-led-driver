@@ -176,7 +176,7 @@
     (property "Author" "Antmicro" (id 7) (at 382.905 254 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "" (id 7) (at 367.665 238.76 0)
+    (property "MPN" "" (id 8) (at 367.665 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -205,7 +205,7 @@
     (property "MPN" "" (id 7) (at 349.885 236.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Author" "Antmicro" (id 7) (at 334.645 221.615 0)
+    (property "Author" "Antmicro" (id 8) (at 334.645 221.615 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
   )
@@ -288,12 +288,6 @@
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/ee8f677e-7c70-42ab-b26f-a3c4dc0d6a99"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/25c8adc3-90d0-416c-a094-61de9297b643"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/445201a1-fca5-4fa3-a943-a4c42d093c71"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/db0ab990-568d-4a92-bc6c-ab27d31f5e7a"
       (reference "C1") (unit 1) (value "C_10u_0805") (footprint "antmicro-footprints:0805-cap")
@@ -416,10 +410,10 @@
       (reference "U2") (unit 1) (value "AP62301Z6-7") (footprint "antmicro-footprints:SOT-563")
     )
     (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/34a6d581-d7e5-4631-99ef-5078a62bade8"
-      (reference "U3") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB(LF)(SN)")
+      (reference "U3") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
     )
     (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/c443b677-61e8-4896-8031-467e4fb3fc90"
-      (reference "U4") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB(LF)(SN)")
+      (reference "U4") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
     )
   )
 )
