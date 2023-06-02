@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|91450001|50750001|ba3322c9-8bb0-4e60-ad56-26d692d40fc4|2231a177-90f5-4106-98cf-217fbae1c6cd",
+        "courtyards_overlap|92880001|52085001|ba3322c9-8bb0-4e60-ad56-26d692d40fc4|03798ded-f2c3-4063-829b-ad1249d5c2c8"
+      ],
       "meta": {
         "version": 2
       },
@@ -385,7 +388,6 @@
           "C_out",
           "FB",
           "GND",
-          "Net-(C3-Pad1)",
           "Net-(C7-Pad2)",
           "Net-(D2-Pad1)",
           "SW"
