@@ -123,6 +123,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52e6a2eb-de7c-4f9e-8588-8d24c8462354)
   )
+  (text "1050nm IR LED Driver \nrev.${REVISION} 07/2023" (at 116.84 -6.35 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5dba4c3a-aa1e-4f91-be9f-b7cadb8159fb)
+  )
   (text "SLAVE\n" (at 370.84 213.36 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 62e9ad6c-781e-444c-b95d-ca7ab2a55942)
@@ -244,9 +248,6 @@
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/a9414a05-7e95-4dcd-8615-f1034dbdc467"
       (reference "#PWR01") (unit 1) (value "+12V") (footprint "")
     )
-    (path "/04f57430-8668-4227-a3f5-414daa4e8985/ef8beb8d-279c-420e-82ac-ed93404580bd"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
-    )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/3dfd95ab-8c8e-4d0d-bb2d-5eda20546d8f"
       (reference "#PWR03") (unit 1) (value "+12V") (footprint "")
     )
@@ -304,8 +305,20 @@
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/1d8f7b36-6e87-4a86-8ae8-f20b34f268a4"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
+    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/2667207a-8dab-41ba-aa7f-d8203e45b043"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/22c680c0-3b3a-46bb-ac02-93e78527c47f"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/8ebb2fba-93d6-43aa-a42e-d17596005075"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/16f44e5f-c530-4a99-9833-cb6c56d8b386"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/db0ab990-568d-4a92-bc6c-ab27d31f5e7a"
-      (reference "C1") (unit 1) (value "C_10u_0805") (footprint "antmicro-footprints:0805-cap")
+      (reference "C1") (unit 1) (value "C_10u_0805") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/b52a5a90-7ff7-4a99-b275-e56c92499b83"
       (reference "C2") (unit 1) (value "C_2u2_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
@@ -356,7 +369,7 @@
       (reference "J1") (unit 1) (value "BarrelJack_3167288") (footprint "antmicro-footprints:BarrelJack_3167288_Horizontal")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/18101bec-567a-48ba-b51c-27aef041db15"
-      (reference "J2") (unit 1) (value "USB-C_USB4105-GF-A") (footprint "antmicro-footprints:GCT_USB4105-GF-A")
+      (reference "J2") (unit 1) (value "USB-C_USB4105-GF-A") (footprint "antmicro-footprints:USB-C_GCT_USB4105-GF-A")
     )
     (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/34a6d581-d7e5-4631-99ef-5078a62bade8"
       (reference "J3") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
@@ -364,8 +377,8 @@
     (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/c443b677-61e8-4896-8031-467e4fb3fc90"
       (reference "J4") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
     )
-    (path "/04f57430-8668-4227-a3f5-414daa4e8985/654307fb-8bf3-40f6-9634-02b9debd8418"
-      (reference "L1") (unit 1) (value "SRP2512A-4R7M") (footprint "antmicro-footprints:SRP2512A-1R0M")
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/20bbbcf9-5a9c-4550-9025-4e5ba4235f41"
+      (reference "L1") (unit 1) (value "L_4u7_1.5A_1008") (footprint "antmicro-footprints:SRP2512A-1R0M")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/c9d38ffe-3b5e-4711-87e6-b88239efe34c"
       (reference "L2") (unit 1) (value "TFM252012ALMA3R3MTAA") (footprint "antmicro-footprints:L_1008_2520Metric")
@@ -427,7 +440,7 @@
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/56f93723-a069-40ef-9ae6-7d0a98bb0d2e"
       (reference "U1") (unit 1) (value "MP2483DQ-LF-P") (footprint "antmicro-footprints:QFN-10-1EP_3x3mm_P0.5mm")
     )
-    (path "/04f57430-8668-4227-a3f5-414daa4e8985/3d030c89-fe83-45b7-bbf9-701f0bf5b12e"
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/7a3e6d9f-32ba-467e-9dc7-da6afd2bd33b"
       (reference "U2") (unit 1) (value "AP62301Z6-7") (footprint "antmicro-footprints:SOT-563")
     )
   )
