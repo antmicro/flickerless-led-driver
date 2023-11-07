@@ -6,8 +6,8 @@
 
   (title_block
     (title "LZ1 OSRAM LuxiGen LED Driver")
-    (date "2023-05-04")
-    (rev "1.1.0")
+    (date "2023-11-03")
+    (rev "1.1.1")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
   )
@@ -368,14 +368,14 @@
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/3cf9a62e-3962-4db2-83ca-aa7ac5be1c93"
       (reference "J1") (unit 1) (value "BarrelJack_3167288") (footprint "antmicro-footprints:BarrelJack_3167288_Horizontal")
     )
-    (path "/04f57430-8668-4227-a3f5-414daa4e8985/18101bec-567a-48ba-b51c-27aef041db15"
-      (reference "J2") (unit 1) (value "USB-C_USB4105-GF-A") (footprint "antmicro-footprints:USB-C_GCT_USB4105-GF-A")
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/60cd8ca0-56eb-4f96-bdaa-e86beaa72421"
+      (reference "J2") (unit 1) (value "USB-C_GCT_USB4105-GF-A") (footprint "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A")
     )
-    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/34a6d581-d7e5-4631-99ef-5078a62bade8"
-      (reference "J3") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
+    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/94f39941-f2dd-4511-a5e7-553b03038b2b"
+      (reference "J3") (unit 1) (value "JST_SH_1x2_SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:Conn_JST_SH_1x2_SM02B-SRSS-TB-LF-SN")
     )
-    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/c443b677-61e8-4896-8031-467e4fb3fc90"
-      (reference "J4") (unit 1) (value "SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:JST_SM02B-SRSS-TB-LF-SN")
+    (path "/02863aa0-7d3f-4a49-bbc3-667fd8cc786e/084b9e67-b8c5-41ec-a18f-406c6d540687"
+      (reference "J4") (unit 1) (value "JST_SH_1x2_SM02B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:Conn_JST_SH_1x2_SM02B-SRSS-TB-LF-SN")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/20bbbcf9-5a9c-4550-9025-4e5ba4235f41"
       (reference "L1") (unit 1) (value "L_4u7_1.5A_1008") (footprint "antmicro-footprints:SRP2512A-1R0M")
@@ -433,6 +433,12 @@
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/838eef2d-cc6f-4560-bd9b-8e2d45b6a893"
       (reference "R14") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
+    )
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/c986fbf4-4948-4743-b44b-94032e925a79"
+      (reference "R15") (unit 1) (value "R_22k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
+    )
+    (path "/04f57430-8668-4227-a3f5-414daa4e8985/f00099d8-e1e8-4826-a986-c2132aaa3e9b"
+      (reference "R16") (unit 1) (value "R_22k_0402") (footprint "antmicro-footprints:R_0402_1005Metric")
     )
     (path "/04f57430-8668-4227-a3f5-414daa4e8985/88771d0b-247a-456b-8199-2d4dafeaa2a0"
       (reference "TP1") (unit 1) (value "TP_1mm_SMD") (footprint "antmicro-footprints:Testpoint_smd_1mm")
